@@ -42,6 +42,7 @@ a{
 
 /* Header section style*/
 .header {
+    background-color: var(--white);
     display: flex;
     padding: 24px 215px;
 }
@@ -107,7 +108,7 @@ a{
     line-height: 16px;
     color: var(--grey) ;
     text-decoration: none;
-   padding-right: 40px;
+    padding-right: 40px;
 
 }
 
@@ -307,7 +308,7 @@ a{
 .footer{
     background-color: var(--dark-grey);
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     padding: 60px 1240px 60px 215px;
 }
 
@@ -380,10 +381,21 @@ a{
 }
 
 /* Header section style*/
-
 .header {
     background-color: var(--white);
+    display: flex;
+    padding: 24px 215px;
 }
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
 .header__logo{
     text-decoration: none;
     font-family: var(--secondary-font);
@@ -401,6 +413,8 @@ a{
 
 .header__navigation ul{
     list-style: none;
+    display: flex;
+    gap: 40px;
 
 }
 
@@ -431,6 +445,7 @@ a{
     line-height: 16px;
     color: var(--grey) ;
     text-decoration: none;
+    padding-right: 40px;
 
 }
 
@@ -445,12 +460,50 @@ a{
 }
 
 /* Main part website page style*/
+
+.projects .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 215px;
+}
 .projects__menu{
     font-family: var(--primary-font);
     font-size: 16px;
     background-color: var(--dark-white);
     color: var(--black);
-    margin-top: 60px;
+    letter-spacing: 0.03em;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    padding-left: 215px;
+    display: inline-flex;
+    flex: 1;
+    gap: 8px;
+
+}
+
+.name-all{
+    width: 64px;
+    height: 38px;
+
+}
+.name-websites{
+    width: 120px;
+    height: 38px;
+}
+.name-app{
+    width: 83px;
+    height: 38px;
+}
+
+.name-design{
+    width: 96px;
+    height: 38px;
+}
+.name-marketing{
+    width: 121px;
+    height: 38px;
 }
 
 .projects__menu>button{
@@ -470,11 +523,28 @@ a{
     cursor: pointer;
 }
 
+.projects__images{
+    display: flex;
+    flex:1;
+    gap:30px;
+}
+.projects-text{
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+}
+.projects1-text{
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
 
 /* Footer portflio style*/
 
 .footer{
     background-color: var(--dark-grey);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 1240px 60px 215px;
 }
 
 
@@ -485,6 +555,8 @@ a{
     line-height: 31px;
     color: var(--white);
     text-decoration: none;
+    letter-spacing: 0.03em;
+    align-items: flex-start;
 }
 
 .footer__logo__name{
@@ -500,8 +572,15 @@ a{
     line-height: 16px;
     color: var(--white);
     text-decoration: none;
-
+    letter-spacing: 0.03em;
+    margin-top: 28px;
 }
+
+.contact-mail{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
 .contact a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
@@ -515,3 +594,9 @@ a{
     color: var(--light-blue);
     border-bottom: none;
 }
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+ }
