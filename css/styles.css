@@ -40,6 +40,11 @@ a{
 
 }
 
+.container{
+    width: 1200px;
+    margin: auto;
+ }
+
 /* Header section style*/
 .header {
     background-color: var(--white);
@@ -54,6 +59,7 @@ a{
     flex-wrap: wrap;
     
 }
+
 
 .header__logo{
     text-decoration: none;
@@ -75,8 +81,6 @@ a{
     list-style: none;
     display: flex;
     gap: 40px;
-
-
 }
 
 .header__navigation a{
@@ -131,12 +135,6 @@ a{
     flex-wrap: wrap;
 
 }
-.hero-section .container{
-    width: 1200px;
-   margin-left: auto;
-   margin-right: auto; 
-}
-
 
 .hero-section__title{
     font-family: var(--primary-font);
@@ -310,6 +308,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 60px 1240px 60px 215px;
+    text-align: start;
 }
 
 .footer__logo{
@@ -377,9 +376,12 @@ a{
     font-family: var(--primary-font);
     background-color: var(--white);
     text-align: center;
-    
 }
 
+.container{
+    width: 1200px;
+    margin: auto;
+ }
 /* Header section style*/
 .header {
     background-color: var(--white);
@@ -394,7 +396,6 @@ a{
     flex-wrap: wrap;
     
 }
-
 
 .header__logo{
     text-decoration: none;
@@ -464,7 +465,6 @@ a{
 .projects .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
     padding-left: 215px;
 }
@@ -474,13 +474,12 @@ a{
     background-color: var(--dark-white);
     color: var(--black);
     letter-spacing: 0.03em;
-    margin-top: 94px;
     margin-bottom: 50px;
+    margin-top: 94px;
     padding-left: 215px;
     display: inline-flex;
-    flex: 1;
     gap: 8px;
-
+    
 }
 
 .name-all{
@@ -530,12 +529,16 @@ a{
 }
 .projects-text{
     margin-top: 20px;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
+    letter-spacing: 0.06em;
+    text-align: left;
 
 }
 .projects1-text{
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     margin-top: 4px;
+    text-align: left;
+
 }
 
 /* Footer portflio style*/
@@ -545,6 +548,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 60px 1240px 60px 215px;
+    text-align: start;
 }
 
 
@@ -575,9 +579,9 @@ a{
     letter-spacing: 0.03em;
     margin-top: 28px;
 }
-
+  
 .contact-mail{
-    margin-top: 12px;
+    margin-top:14px;
     margin-bottom: 12px;
 }
 
@@ -585,7 +589,7 @@ a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
-.contact a:hover {
+.contact a:hover{
     color: var(--light-blue);
 }
 
@@ -594,9 +598,3 @@ a{
     color: var(--light-blue);
     border-bottom: none;
 }
-
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
- }
