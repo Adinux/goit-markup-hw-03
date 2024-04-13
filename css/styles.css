@@ -50,6 +50,7 @@ a{
     background-color: var(--white);
     display: flex;
     padding: 24px 215px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header .container{
@@ -387,6 +388,7 @@ a{
     background-color: var(--white);
     display: flex;
     padding: 24px 215px;
+    border-bottom: 1px solid #ececec;
 }
 
 .header .container{
@@ -467,6 +469,10 @@ a{
     justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 215px;
+    border-bottom: 1px solid #eeeeee;
+}
+.projects-section{
+    border: 1px solid #eeeeee;
 }
 .projects__menu{
     font-family: var(--primary-font);
@@ -479,30 +485,24 @@ a{
     padding-left: 215px;
     display: inline-flex;
     gap: 8px;
-    
+
 }
 
 .name-all{
     width: 64px;
-    height: 38px;
-
 }
 .name-websites{
     width: 120px;
-    height: 38px;
 }
 .name-app{
     width: 83px;
-    height: 38px;
 }
 
 .name-design{
     width: 96px;
-    height: 38px;
 }
 .name-marketing{
     width: 121px;
-    height: 38px;
 }
 
 .projects__menu>button{
