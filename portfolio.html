@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -32,83 +32,103 @@
         </div>
         </header>
 
-        <main>
         <!--Main part of the website page-->
-       <div class="projects__menu">
-        <button type="button" class="button-name">All</button>
-        <button type="button" class="button-name">Web-sites</button>
-        <button type="button" class="button-name">Apps</button>
-        <button type="button" class="button-name">Design</button>
-        <button type="button" class="button-name">Marketing</button>
+        <main>
+            <div class="section">
+
+                <!--Buttons list-->
+            <div>
+                <ul class="button-menu">
+        <li><button type="button" class="button-name">All</button></li>
+        <li><button type="button" class="button-name">Web-sites</button></li>
+        <li><button type="button" class="button-name">Apps</button></li>
+        <li><button type="button" class="button-name">Design</button></li>
+        <li><button type="button" class="button-name">Marketing</button></li>
+    </ul>
        </div>
 
-            <!--Container with projects-->
-            <div style="display: flex; gap: 30px">
+            <!--Portfolio-->
+            <section class="portfolio-section">
+
                 <!--1st container-->
-            <div class="projects__container"><img class="projects__image" src="./images/technoduck.jpg" alt="photo of a web-site" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/technoduck.jpg" alt="photo of a web-site" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Technoduck</b></p>
                 <p class="projects1-text">Web-site</p>
             </div>
+        </div>
 
             <!--2nd container-->
-            <div class="projects__container"><img class="projects__image" src="./images/poster-new-orlean.jpg" alt="poster of 2 basketball player" width="300">
+            <div class="portfolio-projects"><img class= "portfolio-image"src="./images/poster-new-orlean.jpg" alt="poster of 2 basketball player" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Poster New Orlean vs Golden Star</b></p>
                 <p class="projects1-text">Design</p>
             </div>
+        </div>
 
             <!--3rd container-->
-            <div class="projects__container"><img class="projects__image" src="./images/seafood.jpg" alt="photo of seafood restaurant" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/seafood.jpg" alt="photo of seafood restaurant" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Seafood Restaurant</b></p>
                 <p class="projects1-text">Apps</p>
             </div>
         </div>
 
-        <div style="display: flex; gap: 30px">
         <!--4th container-->
-            <div class="projects__container"><img class="projects__image" src="./images/project-prime.jpg" alt="photo of set of headphones" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/project-prime.jpg" alt="photo of set of headphones" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Project Prime</b></p>
                 <p class="projects1-text">Marketing</p>
             </div>
+        </div>
 
             <!--5th container-->
-            <div class="projects__container"><img class="projects__image" src="./images/project-boxes.jpg" alt="boxes image" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/project-boxes.jpg" alt="boxes image" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Project Boxes</b></p>
                 <p class="projects1-text">Apps</p>
             </div>
+        </div>
 
             <!--6th container-->
-            <div class="projects__container"><img class="projects__image" src="./images/inspiration.jpg" alt="image website on pc" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/inspiration.jpg" alt="image website on pc" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Inspiration has no Borders</b></p>
                 <p class="projects1-text">Web-site</p>
             </div>
         </div>
 
-            <div style="display: flex; gap: 30px">
             <!--7th container-->
-            <div class="projects__container"><img class="projects__image" src="./images/limited-edition.jpg" alt="magazine design" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/limited-edition.jpg" alt="magazine design" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Limited Edition</b></p>
                 <p class="projects1-text">Design</p>
             </div>
+        </div>
 
             <!--8th container-->
-            <div class="projects__container"><img class="projects__image" src="./images/project-lab.jpg" alt="tag image" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/project-lab.jpg" alt="tag image" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Project LAB</b></p>
                 <p class="projects1-text">Marketing</p>
             </div>
+        </div>
 
             <!--9th container-->
-            <div class="projects__container"><img class="projects__image" src="./images/growing.jpg" alt="picture with label" width="300">
+            <div class="portfolio-projects"><img class="portfolio-image" src="./images/growing.jpg" alt="picture with label" width="370" height="294">
+                <div class="portfolio-cards">
                 <p class="projects-text"><b>Growing Business</b></p>
                 <p class="projects1-text">Apps</p>
             </div>
             </div>
-        </div>
+            </div>
+        </section>
     </main>
 
         <!--Footer section-->
         <footer class="footer">
-            <div class="footer-info">
-            <a href="#" class="footer__logo"><p><span class="footer__logo__name">Web</span>Studio</p></a>
+            <div class="section">
+            <a href="#" class="footer__logo"><span class="footer__logo__name">Web</span>Studio</a>
             <address class="contacts">
             <p class="road">Park Ave, NY 10065, USA</p>
             <p class="mail">info@devstudio.com</p>
